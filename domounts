@@ -1,0 +1,11 @@
+mount -f "$USERPROFILE\\Desktop\\incoming" /incoming
+mount -f "$USERPROFILE\\.m2\\repository" /repository
+
+mount -f "c:/projects" /projects
+mount -f "c:/build" /build
+mount -f "c:/java" /java
+mount -f "c:/bea" /bea
+mount -f "c:/opt" /opt
+mount -f "c:/www" /www
+mount -f "c:" /c
+mount -f "m:" /m
