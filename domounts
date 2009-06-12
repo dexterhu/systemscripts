@@ -1,4 +1,4 @@
-mount -f "$USERPROFILE\\Desktop\\incoming" /incoming
+mount -f "$USERPROFILE\\My Documents\\incoming" /incoming
 mount -f "$USERPROFILE\\.m2\\repository" /repository
 
 mount -f "c:/projects" /projects
