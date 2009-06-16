@@ -1,11 +1,11 @@
 mount -f "$USERPROFILE\\My Documents\\incoming" /incoming
 mount -f "$USERPROFILE\\.m2\\repository" /repository
 
-mount -f "c:/projects" /projects
-mount -f "c:/build" /build
-mount -f "c:/java" /java
-mount -f "c:/bea" /bea
-mount -f "c:/opt" /opt
-mount -f "c:/www" /www
+mkdir -p /c/cygwin/projects ; mount -f "c:/projects" /projects
+mkdir -p /c/cygwin/build ; mount -f "c:/build" /build
+mkdir -p /c/cygwin/java ; mount -f "c:/java" /java
+mkdir -p /c/cygwin/bea ; mount -f "c:/bea" /bea
+mkdir -p /c/cygwin/opt ; mount -f "c:/opt" /opt
+mkdir -p /c/cygwin/www ; mount -f "c:/www" /www
 mount -f "c:" /c
 mount -f "m:" /m
