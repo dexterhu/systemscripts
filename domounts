@@ -1,3 +1,4 @@
+mount -f "$USERPROFILE\\My Documents\\" /docs
 mount -f "$USERPROFILE\\My Documents\\incoming" /incoming
 mount -f "$USERPROFILE\\.m2\\repository" /repository
 
