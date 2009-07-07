@@ -1,0 +1,7 @@
+CVS/
+target/
+.svn/
+.project
+.settings
+.classpath
+ErrorLogs/
