@@ -1,4 +1,4 @@
 #!/bin/bash
 export p=`pwd`
 export pc=`cygpath -w $p/$1`
-explorer.exe /root,$pc
+explorer.exe /root,$pc &
