@@ -1,3 +1,0 @@
-#!/bin/bash
-
-egrep -li '(failures|errors)="[^0]' */target/surefire-reports/*

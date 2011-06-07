@@ -1,3 +1,0 @@
-#!/bin/bash
-
-git shortlog  | tail -40 |sed -e 's/^      //'
