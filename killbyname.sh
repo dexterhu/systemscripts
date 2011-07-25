@@ -1,10 +1,26 @@
 #!/bin/bash
-# A utility to kill a process by its partial name, i.e. the name is a substring of the full command
-# that started this process
-# This is usefull when we don't know the exact name of the process, but the application name
+#===============================================================================
+#
+#          FILE:  killbyname.sh
 # 
-# Author: Dexter H. Hu
-# Date: 05/03/2011
+#         USAGE:  ./killbyname.sh <process name>
+# 
+#   DESCRIPTION:  A utility to kill a process gracefully by its partial name, i.e. the name is 
+#                 a substring of the full command that started this process. This is 
+#                 useful when we don't know the exact name of the process, but the 
+#                 application name (e.g. terminal, firefox, chromium).
+#                 By gracefulness, we mean the signal used starts from TERM INT QUIT HUP to KILL
+#       OPTIONS:  ---
+#  REQUIREMENTS:  ---
+#          BUGS:  ---
+#         NOTES:  ---
+#        AUTHOR:  Dexter H. Hu, hyhu@cs.hku.hk
+#       COMPANY:  HKU CS
+#       VERSION:  1.0
+#       CREATED:  03/12/2010 05:24:02 PM HKT
+#      REVISION:  ---
+#===============================================================================
+
 
 terminate(){
     # accepts PID as $1, defaults to current process

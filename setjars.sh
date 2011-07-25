@@ -1,9 +1,22 @@
-#!/bin/sh
-
-#---------------------------------#
-# dynamically build the classpath of jars in current folder and ./lib folder and ./classes#
-#---------------------------------#
-
+#!/bin/bash
+#===============================================================================
+#
+#          FILE:  setjars.sh
+# 
+#         USAGE:  ./setjars.sh .
+# 
+#   DESCRIPTION:  dynamically set the classpath of jars in current folder and 
+#                 ./lib folder and ./classes#
+#       OPTIONS:  ---
+#  REQUIREMENTS:  ---
+#          BUGS:  ---
+#         NOTES:  ---
+#        AUTHOR:  Dexter H. Hu (), hyhu@cs.hku.hk
+#       COMPANY:  HKU CS
+#       VERSION:  1.0
+#       CREATED:  03/11/2011 07:58:15 PM HKT
+#      REVISION:  ---
+#===============================================================================
 
 EXPECTED_ARGS=1
 

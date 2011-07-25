@@ -5,16 +5,16 @@
 # 
 #         USAGE:  ./laninfo.sh 
 # 
-#   DESCRIPTION:  
-# 
+#   DESCRIPTION:  A utility to show the list of (machine name, IP) pairs within the 
+#                 local network. The interface should be eth0 by default.
 #       OPTIONS:  ---
 #  REQUIREMENTS:  ---
 #          BUGS:  ---
 #         NOTES:  ---
-#        AUTHOR:  Dexter H. Hu (), hyhu@cs.hku.hk
+#        AUTHOR:  Dexter H. Hu, hyhu@cs.hku.hk
 #       COMPANY:  HKU CS
 #       VERSION:  1.0
-#       CREATED:  03/12/2011 05:24:02 PM HKT
+#       CREATED:  04/12/2010 04:24:02 PM HKT
 #      REVISION:  ---
 #===============================================================================
 

@@ -5,7 +5,7 @@
 # 
 #         USAGE:  ./psbymem.sh 
 # 
-#   DESCRIPTION:  sort process by mem % usage
+#   DESCRIPTION:  sort processes by mem % usage
 # 
 #       OPTIONS:  ---
 #  REQUIREMENTS:  ---

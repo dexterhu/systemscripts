@@ -5,7 +5,8 @@
 # 
 #         USAGE:  ./killzombie.sh 
 # 
-#   DESCRIPTION:  kill zombie process periododically
+#   DESCRIPTION:  kill zombie process periododically, a zombie is a dead one 
+#                 taking a PID but not with any process resources.
 # 
 #       OPTIONS:  ---
 #  REQUIREMENTS:  ---

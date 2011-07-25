@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 # this directory must exist to execute the script
 if [ -d /dev/disk/by-id/ ]; then :; else echo 'ERROR: /dev/disk/by-id/ does not exist'; exit 1; fi
 

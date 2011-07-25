@@ -1,9 +1,9 @@
 #!/bin/bash
 #===============================================================================
 #
-#          FILE:  linux-good-small-programs.sh
+#          FILE:  linux-utility-programs.sh
 # 
-#         USAGE:  ./linux-good-small-programs.sh 
+#         USAGE:  ./linux-utility-programs.sh 
 # 
 #   DESCRIPTION:  a list of small yet necessary utility programs to installed on ubuntu
 # 
@@ -22,6 +22,9 @@
 #sudo apt-get install libboost
 # install from GUI please
 
+# build deb ubuntu package
+sudo apt-get install --yes build-essential devscripts ubuntu-dev-tools debhelper dh_make diff patch cdbs quilt gnupg fakeroot lintian pbuilder
+
 # matlab R gnuplot python matplotlib
 sudo apt-get install r-base
 sudo apt-get install r-base-dev
@@ -36,9 +39,7 @@ sudo apt-get install python2.5
 
 
 # erlang, ocaml
-
 sudo apt-get install erlang-base
-
 
 # Chinese language support
 
@@ -48,8 +49,7 @@ sudo apt-get install erlang-base
 
 # development
 sudo apt-get install --yes subversion git maven2 ant cvs glipper
-
-isudo apt-get install --yes bzr-builddeb ubuntu-dev-tools fakeroot build-essential gnupg pbuilder debhelper 
+sudo apt-get install --yes bzr-builddeb ubuntu-dev-tools fakeroot build-essential gnupg pbuilder debhelper 
 sudo apt-get install meld 
 sudo apt-get install valgrind doxygen graphviz
 sudo apt-get install vim vim-full vim-scripts vim-doc vim-latexsuite

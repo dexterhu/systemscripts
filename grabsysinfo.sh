@@ -1,28 +1,23 @@
-#!/bin/bash -x
+#!/bin/bash
 #===============================================================================
 #
-#          FILE:  systeinfo.sh
+#          FILE:  grabsysinfo.sh
 # 
-#         USAGE:  ./systeinfo.sh 
+#         USAGE:  ./grabsysinfo.sh 
 # 
-#   DESCRIPTION:  print out system information using bash script
+#   DESCRIPTION:  A simple menu driven shell script to to get information about your 
+#                 Linux server / desktop.
 # 
 #       OPTIONS:  ---
 #  REQUIREMENTS:  ---
 #          BUGS:  ---
 #         NOTES:  ---
-#        AUTHOR:  Dexter H. Hu (), hyhu@cs.hku.hk
-#       COMPANY:  HKU CS
+#        AUTHOR:  Vivek Gite
+#       COMPANY:  
 #       VERSION:  1.0
-#       CREATED:  03/09/2011 06:42:21 PM HKT
+#       CREATED:  12/Sep/2007
 #      REVISION:  ---
 #===============================================================================
-
-
-# grabsysinfo.sh - A simple menu driven shell script to to get information about your 
-# Linux server / desktop.
-# Author: Vivek Gite
-# Date: 12/Sep/2007
 
 # Define variables
 LSB=/usr/bin/lsb_release
