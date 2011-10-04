@@ -109,7 +109,7 @@ sudo apt-get install apt-fast
 
 # linux source code, c library source code
 sudo apt-get source libc6 linux-source
-sudo apt-get install linux-kernel-devel fakeroot kernel-wedge build-essential makedumpfile schedutils
+sudo apt-get install fakeroot build-essential makedumpfile schedutils
 
 sudo apt-get install fakeroot build-essential
 sudo apt-get install crash kexec-tools makedumpfile kernel-wedge
