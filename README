@@ -11,6 +11,7 @@
   6. showing system information (mem size, OS, etc), 
   7. SSH Tunneling for sftp, remote desktop connection through a gateway
   8. showing IP and hostname of computers in the local network.
+  9. spoof mac address of an ethernet interface.
 
   Documentation
   -------------
