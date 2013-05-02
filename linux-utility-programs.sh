@@ -35,7 +35,7 @@ sudo apt-get install gnuplot gnuplot-x11 python-gnuplot python-scitools python-p
 
 sudo add-apt-repository ppa:fkrull/deadsnakes
 sudo apt-get update
-sudo apt-get install python2.5
+#sudo apt-get install python2.5
 
 
 # erlang, ocaml
@@ -48,7 +48,7 @@ sudo apt-get install erlang-base
 
 
 # development
-sudo apt-get install --yes subversion git maven2 ant cvs glipper
+sudo apt-get install --yes subversion git maven ant cvs glipper
 sudo apt-get install --yes bzr-builddeb ubuntu-dev-tools fakeroot build-essential gnupg pbuilder debhelper 
 sudo apt-get install meld 
 sudo apt-get install valgrind doxygen graphviz
@@ -57,10 +57,10 @@ sudo apt-get install exuberant-ctags cscope gdb cgdb kdbg ddd
 sudo apt-get install vim-python vim-scripts vim-addon-manager terminator
 
 # Java
-sudo add-apt-repository ppa:sun-java-community-team/sun-java6
-sudo apt-get update
-sudo apt-get install --yes sun-java6-jdk sun-java6-jre sun-java6-plugin
-update-java-alternatives -s java-6-sun
+#sudo add-apt-repository ppa:sun-java-community-team/sun-java6
+#sudo apt-get update
+#sudo apt-get install --yes sun-java6-jdk sun-java6-jre sun-java6-plugin
+#update-java-alternatives -s java-6-sun
 
 
 # large memory support PAE
@@ -68,8 +68,8 @@ update-java-alternatives -s java-6-sun
 
 
 # research writing, academic papers
-sudo apt-get install --yes mendeleydesktop kile gnuplot dia ctags python-matplotlib mencoder
-sudo apt-get install --yes acroread
+#sudo apt-get install --yes mendeleydesktop kile gnuplot dia ctags python-matplotlib mencoder
+#sudo apt-get install --yes acroread
 
 # system monitoring, profiling, small utilities, performance
 sudo apt-get install --yes --no-install-recommends sysprof-module-source
@@ -80,7 +80,7 @@ sudo apt-get install sysv-rc-conf rcconf
 sudo apt-get install prelink preload system-config-kickstart
 
 # ubuntu gnome 
-sudo apt-get install ubuntutweak
+#sudo apt-get install ubuntutweak
 
 # entertainment multimedia
 sudo apt-get install youtube-dl
@@ -103,12 +103,12 @@ sudo apt-get install linux-rt
 sudo apt-get install beep sysstat netperf util-linux bonnie
 
 
-sudo add-apt-repository ppa:tldm217/tahutek.net
-sudo apt-get update
-sudo apt-get install apt-fast
+#sudo add-apt-repository ppa:tldm217/tahutek.net
+#sudo apt-get update
+#sudo apt-get install apt-fast
 
 # linux source code, c library source code
-sudo apt-get source libc6 linux-source
+#sudo apt-get source libc6 linux-source
 sudo apt-get install fakeroot build-essential makedumpfile schedutils
 
 sudo apt-get install fakeroot build-essential
@@ -117,9 +117,9 @@ sudo apt-get build-dep linux
 sudo apt-get install git-core libncurses5 libncurses5-dev
 sudo apt-get install libelf-dev libdw-dev asciidoc binutils-dev
 
-sudo apt-get install ubuntu-restricted-extras
-sudo apt-get install compizconfig-settings-manager
-sudo apt-get install cheese
+#sudo apt-get install ubuntu-restricted-extras
+#sudo apt-get install compizconfig-settings-manager
+#sudo apt-get install cheese
 
-sudo apt-get install apache2 php5 mysql-server libapache2-mod-auth-mysql php5-mysql
-sudo apt-get install vsftpd
+#sudo apt-get install apache2 php5 mysql-server libapache2-mod-auth-mysql php5-mysql
+#sudo apt-get install vsftpd
