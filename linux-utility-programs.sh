@@ -26,20 +26,20 @@
 sudo apt-get install --yes build-essential devscripts ubuntu-dev-tools debhelper dh_make diff patch cdbs quilt gnupg fakeroot lintian pbuilder
 
 # matlab R gnuplot python matplotlib
-sudo apt-get install r-base
-sudo apt-get install r-base-dev
-sudo apt-get build-dep r-cran-*
-sudo apt-get install python-rpy2
-sudo add-apt-repository ppa:scitools/ppa
-sudo apt-get install gnuplot gnuplot-x11 python-gnuplot python-scitools python-pip python-matplotlib* python-scipy python-scientific python-gnuplot python-vtk python-pyx python-pmw blt libdx4-dev dx grace ecryptfs-utils rar
+#sudo apt-get install r-base
+#sudo apt-get install r-base-dev
+#sudo apt-get build-dep r-cran-*
+#sudo apt-get install python-rpy2
+#sudo add-apt-repository ppa:scitools/ppa
+#sudo apt-get install gnuplot gnuplot-x11 python-gnuplot python-scitools python-pip python-matplotlib* python-scipy python-scientific python-gnuplot python-vtk python-pyx python-pmw blt libdx4-dev dx grace ecryptfs-utils rar
 
-sudo add-apt-repository ppa:fkrull/deadsnakes
-sudo apt-get update
+#sudo add-apt-repository ppa:fkrull/deadsnakes
+#sudo apt-get update
 #sudo apt-get install python2.5
 
 
 # erlang, ocaml
-sudo apt-get install erlang-base
+# sudo apt-get install erlang-base
 
 # Chinese language support
 
@@ -73,7 +73,7 @@ sudo apt-get install vim-python vim-scripts vim-addon-manager terminator
 
 # system monitoring, profiling, small utilities, performance
 sudo apt-get install --yes --no-install-recommends sysprof-module-source
-htop atop nmon sysstat mon bwm-ng
+htop atop nmon sysstat mon bwm-ng bootchart bum jobservice jobs-admin
 sudo apt-get install wireshark strace 
 sudo apt-get install --yes curl iotop x86info auditd dstat hdparm traceroute tcptraceroute ipython iptraf lynx-cur arp-scan nautilus-open-terminal nmap pdsh fping npt rcconf bum startupmanager axel autocutsel meld realpath xclip
 sudo apt-get install sysv-rc-conf rcconf
@@ -97,8 +97,8 @@ sudo apt-get install openssh-server openssh-client knockd
 # apache httpd
 
 # s
-sudo add-apt-repository ppa:abogani/ppa
-sudo apt-get install linux-rt
+# sudo add-apt-repository ppa:abogani/ppa
+# sudo apt-get install linux-rt
 
 sudo apt-get install beep sysstat netperf util-linux bonnie
 
@@ -110,10 +110,8 @@ sudo apt-get install beep sysstat netperf util-linux bonnie
 # linux source code, c library source code
 #sudo apt-get source libc6 linux-source
 sudo apt-get install fakeroot build-essential makedumpfile schedutils
-
-sudo apt-get install fakeroot build-essential
 sudo apt-get install crash kexec-tools makedumpfile kernel-wedge
-sudo apt-get build-dep linux
+sudo apt-get build-dep
 sudo apt-get install git-core libncurses5 libncurses5-dev
 sudo apt-get install libelf-dev libdw-dev asciidoc binutils-dev
 
