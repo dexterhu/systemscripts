@@ -83,7 +83,7 @@ sudo apt-get install prelink preload system-config-kickstart
 #sudo apt-get install ubuntutweak
 
 # entertainment multimedia
-sudo apt-get install youtube-dl
+# sudo apt-get install youtube-dl
 
 # email 
 #sudo apt-get install postfix mailutils
