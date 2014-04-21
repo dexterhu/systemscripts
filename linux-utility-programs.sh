@@ -114,6 +114,7 @@ sudo apt-get install crash kexec-tools makedumpfile kernel-wedge
 sudo apt-get build-dep
 sudo apt-get install git-core libncurses5 libncurses5-dev
 sudo apt-get install libelf-dev libdw-dev asciidoc binutils-dev
+sudo apt-get install nautilus-open-terminal
 
 #sudo apt-get install ubuntu-restricted-extras
 #sudo apt-get install compizconfig-settings-manager
